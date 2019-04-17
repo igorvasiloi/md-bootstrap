@@ -45,7 +45,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1"
   },
   "scripts": {
-    "eslint": "./node_modules/.bin/eslint src/js/**/*.js",
+    "eslint": "eslint src/js/**/*.js",
     "pretest": "npm run eslint",
     "start": "webpack-dev-server --mode development --open --hot --host 0.0.0.0",
     "build": "npm run pretest && webpack --mode production"
