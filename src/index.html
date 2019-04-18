@@ -4,9 +4,355 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>MD-Bootstrap</title>
 </head>
 <body>
-    
+   <!--Main Navigation-->
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark blue scrolling-navbar">
+      <a class="navbar-brand" href="#"><strong>My Site</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Opinions</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><i class="fa fa-instagram"></i></a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!--Main Navigation-->
+
+  <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view hm-black-light">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+          <div class="mask"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Yeah, so carousels are a bit "meh"</h3>
+          <p>But...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view hm-black-strong">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+          <div class="mask"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">your client will love it</h3>
+          <p>and be amazed by your techical ability</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view hm-black-slight">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+          <div class="mask"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Be prepared</h3>
+          <p>to have money thrown at you!</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <div class="container-fluid">
+    <!-- page content here -->
+
+    <!--Section: Features v.1-->
+<section class="section feature-box">
+
+    <!--Section heading-->
+    <h1 class="section-heading pt-4">Why is it so great?</h1>
+    <!--Section description-->
+    <p class="section-description lead grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  
+    <!--Grid row-->
+    <div class="row features-big">
+  
+      <!--Grid column-->
+      <div class="col-md-4 mb-r">
+        <i class="fa fa-area-chart red-text"></i>
+        <h5 class="feature-title">Analytics</h5>
+        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+      </div>
+      <!--Grid column-->
+  
+      <!--Grid column-->
+      <div class="col-md-4 mb-r">
+        <i class="fa fa-book cyan-text"></i>
+        <h5 class="feature-title">Tutorials</h5>
+        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+      </div>
+      <!--Grid column-->
+  
+      <!--Grid column-->
+      <div class="col-md-4 mb-r">
+        <i class="fa fa-coffee orange-text"></i>
+        <h5 class="feature-title">Relax</h5>
+        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+      </div>
+      <!--Grid column-->
+  
+    </div>
+    <!--Grid row-->
+  
+    <blockquote class="blockquote">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      </blockquote>
+
+      <!--Section: Blog v.3-->
+<section class="section extra-margins pb-3 text-center text-lg-left">
+
+    <!--Section heading-->
+    <h2 class="section-heading h2 pt-4">Recent posts</h2>
+    <!--Section description-->
+    <p class="section-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  
+    <!--Grid row-->
+    <div class="row">
+  
+      <!--Grid column-->
+      <div class="col-lg-4 mb-4">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Others/img (38).jpg" class="img-fluid" alt="First sample image">
+          <a>
+            <div class="mask"></div>
+          </a>
+        </div>
+      </div>
+      <!--Grid column-->
+  
+      <!--Grid column-->
+      <div class="col-lg-7 ml-xl-4 mb-4">
+        <!--Excerpt-->
+        <a href="" class="teal-text"><h6 class="pb-1"><i class="fa fa-heart"></i><strong> Lifestyle </strong></h6></a>
+        <h4 class="mb-3"><strong>This is title of the news</strong></h4>
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis aut rerum.</p>
+        <p>by <a><strong>Jessica Clark</strong></a>, 26/08/2016</p>
+        <a class="btn btn-primary btn-sm">Read more</a>
+      </div>
+      <!--Grid column-->
+  
+    </div>
+    <!--Grid row-->
+  
+    <hr class="mb-5">
+  
+    <!--Grid row-->
+    <div class="row mt-3">
+  
+      <!--Grid column-->
+      <div class="col-lg-4 mb-4">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="Second sample image">
+          <a>
+            <div class="mask"></div>
+          </a>
+        </div>
+      </div>
+      <!--Grid column-->
+  
+      <!--Grid column-->
+      <div class="col-lg-7 ml-xl-4 mb-4">
+        <!--Excerpt-->
+        <a href="" class="cyan-text"><h6 class="pb-1"><i class="fa fa-plane"></i><strong> Travels</strong></h6></a>
+        <h4 class="mb-3"><strong>This is title of the news</strong></h4>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident et dolorum fuga.</p>
+        <p>by <a><strong>Jessica Clark</strong></a>, 24/08/2016</p>
+        <a class="btn btn-primary btn-sm">Read more</a>
+      </div>
+      <!--Grid column-->
+  
+    </div>
+    <!--Grid row-->
+  
+    <hr class="mb-5">
+  
+    <!--Grid row-->
+    <div class="row">
+  
+      <!--Grid column-->
+      <div class="col-lg-4 mb-4">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Others/img (35).jpg" class="img-fluid" alt="Third sample image">
+          <a>
+            <div class="mask"></div>
+          </a>
+        </div>
+      </div>
+      <!--Grid column-->
+  
+      <!--Grid column-->
+      <div class="col-lg-7 ml-xl-4 mb-4">
+        <!--Excerpt-->
+        <a href="" class="brown-text"><h6 class="pb-1"><i class="fa fa-camera"></i><strong> Photography</strong></h6></a>
+        <h4 class="mb-3"><strong>This is title of the news</strong></h4>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+        <p>by <a><strong>Jessica Clark</strong></a>, 21/08/2016</p>
+        <a class="btn btn-primary btn-sm">Read more</a>
+      </div>
+      <!--Grid column-->
+  
+    </div>
+    <!--Grid row-->
+  
+  </section>
+  <!--Section: Blog v.3-->
+  </section>
+  <!--Section: Features v.1-->
+
+  </div>
+
+  <!--Footer-->
+<footer class="page-footer center-on-small-only stylish-color-dark">
+
+    <!--Footer Links-->
+    <div class="container">
+      <div class="row">
+  
+        <!--First column-->
+        <div class="col-md-4">
+          <h5 class="title mb-4 mt-3 font-bold">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit.</p>
+        </div>
+        <!--/.First column-->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!--Second column-->
+        <div class="col-md-2 mx-auto">
+          <h5 class="title mb-4 mt-3 font-bold">Links</h5>
+          <ul>
+            <li><a href="#!">Link 1</a></li>
+            <li><a href="#!">Link 2</a></li>
+            <li><a href="#!">Link 3</a></li>
+            <li><a href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <!--/.Second column-->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!--Third column-->
+        <div class="col-md-2 mx-auto">
+          <h5 class="title mb-4 mt-3 font-bold">Links</h5>
+          <ul>
+            <li><a href="#!">Link 1</a></li>
+            <li><a href="#!">Link 2</a></li>
+            <li><a href="#!">Link 3</a></li>
+            <li><a href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <!--/.Third column-->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!--Fourth column-->
+        <div class="col-md-2 mx-auto">
+          <h5 class="title mb-4 mt-3 font-bold ">Links</h5>
+          <ul>
+            <li><a href="#!">Link 1</a></li>
+            <li><a href="#!">Link 2</a></li>
+            <li><a href="#!">Link 3</a></li>
+            <li><a href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <!--/.Fourth column-->
+      </div>
+    </div>
+    <!--/.Footer Links-->
+  
+    <hr>
+  
+    <!--Call to action-->
+    <div class="call-to-action">
+      <ul>
+        <li>
+          <h5 class="mb-1">Register for free</h5>
+        </li>
+        <li><a href="" class="btn btn-danger btn-rounded">Sign up!</a></li>
+      </ul>
+    </div>
+    <!--/.Call to action-->
+  
+    <hr>
+  
+    <!--Social buttons-->
+    <div class="social-section text-center">
+      <ul>
+  
+        <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+        <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+        <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+        <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+        <li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+  
+      </ul>
+    </div>
+    <!--/.Social buttons-->
+  
+    <!--Copyright-->
+    <div class="footer-copyright">
+      <div class="container-fluid">
+        © 2017 Copyright: <a href="https://www.sitepoint.com"> SitePoint.com </a>
+      </div>
+    </div>
+    <!--/.Copyright-->
+  
+  </footer>
+  <!--/.Footer-->
 </body>
 </html>
