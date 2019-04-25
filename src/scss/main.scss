@@ -6,3 +6,10 @@ $fa-font-path: '~font-awesome/fonts';
 @import '~bootstrap/scss/bootstrap';
 
 @import './header';
+
+
+@import './components/image-viewer.scss';
+
+@import './components/rating.scss';
+
+@import './components/custom-radio';

@@ -7,4 +7,6 @@ import 'bootstrap';
 // Material Design Bootstrap
 import '../vendors/mdb/js/mdb';
 
+import './components/imageviewer';
+
 console.log('works');
